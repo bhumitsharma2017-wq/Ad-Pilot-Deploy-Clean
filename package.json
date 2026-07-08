@@ -2,11 +2,15 @@
   "name": "adpilot-ai",
   "version": "1.0.0",
   "private": true,
+  "packageManager": "npm@11.11.0",
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint .",
     "seed": "tsx scripts/seed.ts"
   },
   "dependencies": {
@@ -39,7 +43,7 @@
     "html2canvas": "^1.4.1",
     "jspdf": "^2.5.2",
     "lucide-react": "^0.447.0",
-    "next": "^15.5.18",
+    "next": "16.2.10",
     "next-themes": "^0.3.0",
     "openai": "^4.57.0",
     "papaparse": "^5.4.1",
@@ -61,8 +65,8 @@
     "@types/react": "^18.3.9",
     "@types/react-dom": "^18.3.0",
     "dotenv": "^16.4.5",
-    "eslint": "^8.57.1",
-    "eslint-config-next": "^15.5.18",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.10",
     "tsx": "^4.19.1"
   }
 }
