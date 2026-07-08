@@ -7,10 +7,6 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: true,
   },
 
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-
   experimental: {
     serverActions: {
       allowedOrigins: ['localhost:3000', 'adpilot.vercel.app'],
@@ -23,7 +19,6 @@ const nextConfig: NextConfig = {
       { protocol: 'https', hostname: 'lh3.googleusercontent.com' },
     ],
   },
-
 }
 
 export default nextConfig
